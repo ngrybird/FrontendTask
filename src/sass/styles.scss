@@ -1,0 +1,322 @@
+@import 'config/**/*.scss';
+
+html {
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
+  margin: auto;
+  font-family: Roboto,Helvetica,Arial,Sans-Serif;
+}
+
+body {
+  font-size: 100%;
+  
+}
+.outer-div{
+  display: flex;
+  flex-flow: row wrap;
+}
+.headers-outer{
+  height: 80px;
+  width : 100%;
+  background: #212121;
+}
+.headers {
+  height: 100%;
+  display : flex;
+  
+  align-items: center;
+  margin: auto;
+  width: 80%; 
+  color: white;
+}
+.menubtn{
+  display: none;
+}
+.companylogo{
+  min-width : 50%
+}
+.rightmenus{
+  min-width : 35%;
+  display: flex;
+}
+.rightbutton{
+  min-width: 15%
+}
+.menu{
+  margin-right: 30px; 
+}
+.landing-page-bg{
+  background-image : url("assets/Axelerant-Fueling-Success.PNG");
+  background-repeat: no-repeat, repeat;
+  height: 600px;
+  width: 100%;
+  
+}
+.landing-content{
+  width: 80%;
+  height: 600px;
+  margin: auto;
+  align-items: center;
+  color: white;
+}
+.page-text{
+  margin-top: 200px;
+  margin-bottom: 75px;
+  padding-top: 75px;
+  padding-bottom: 50px; 
+  margin: auto;
+  width: 40%;
+  height: auto;
+  text-align: center;
+}
+.box-container{
+  width: 70%;
+  display: flex;
+  flex-flow: row wrap;
+  margin: auto;
+  justify-content: space-around;
+}
+.box{
+  min-height : 150px;
+  max-height : 150px;
+  min-width : 150px;
+  max-width : 150px;
+  margin : 10px 10px;
+  //background-color: tomato;
+  text-align : center;
+  border: 1px solid rgb(39, 37, 37);
+  
+}
+.imgbox{
+  margin-top: 35px ;
+  margin-bottom: 15px;
+}
+.outer-row{
+  width: 100%;
+  min-height: 400px;
+  
+}
+.inner-row{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.left-content{
+  width: 50%;
+  min-width: 400px;
+}
+.right-content{
+  width: 50%;
+  min-width: 400px;
+}
+.inner-content{
+  margin-top : 70px;
+}
+.outer-testimonial{
+  width: 100%;
+  min-height: 400px;
+  background-color: #14131305
+}
+.inner-testimonials{
+  width: 80%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.client-comments-content{
+  min-height : 320px;
+  //max-height : 150px;
+  min-width : 300px;
+  max-width : 300px;
+  margin : 10px 10px;
+  background-image : url("assets/Rounded Rectangle 2.png");
+  background-repeat: no-repeat, repeat;
+  background-size: contain;
+  text-align : left;
+  padding: 20px 20px;
+  //border: 1px solid rgb(1, 1, 1);
+}
+.client-comment{
+  margin-top : 110px;
+  height: 80px;
+  width: auto;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+.client-avatar{
+  margin: 0px 5px
+}
+.client-name-pos{
+  display: flex;
+  flex-flow: column wrap;
+  margin: 0px 5px
+}
+.client-name{
+  font-size : 20px;
+}
+.client-position{
+  font-size : 12px;
+}
+.contactus{
+  background: #212121;
+  width: 100%;
+  min-height: 400px;
+}
+.contactus-inner{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+.contactus-content{
+  margin-top : 30px;
+}
+.contactus-content-header{
+  font-size : 25px;
+  margin-bottom: 10px;
+} 
+.contactus-content-desc{
+  font-size : 15px;
+}
+.contactus-form{
+  margin-top: 30px;
+}
+.inputs{
+  color: black;
+  height: 30px;
+  border: 1px solid rgb(39, 37, 37);
+  border-radius: 3px;
+  padding: 0px 5px; 
+  margin : 10px 10px;
+  width : 300px;
+}
+.messageb{
+  border: 1px solid rgb(39, 37, 37);
+  border-radius: 3px;
+  color: black;
+  max-width: 950px;
+  width: 100%;
+  height: 100px;
+  outline: none;
+  resize: none;
+  padding: 5px 5px;
+}
+button{
+  background:orangered;
+  border: 1px solid rgb(39, 37, 37);
+  border-radius: 15px;
+  height: 30px;
+  min-width: 105px;
+  max-width: auto;
+}
+.footer{
+  width: 100%;
+  background-color : Black;
+  height: 70px;
+}
+.footer-inner{
+  width: 80%;
+  color: white;
+  font-size: 13px;
+  margin: auto;
+  justify-content: space-between;
+  text-align: left;  
+  display: flex;
+}
+.footer-left{
+  width: 50%;
+  margin-top : 25px ;
+}
+.footer-right{
+  margin-top : 25px ;
+  width: 50%;
+  align-items: center;
+  text-align: end;
+}
+
+
+@media screen and (max-width: 940px) {
+  // body {
+  //   background-color: blue;
+  // }
+  .page-text {
+    padding-bottom: 25px;
+    padding-top: 40px;
+  }
+  .box-container{
+    width: 70%;
+    display: flex;
+    flex-flow: column wrap;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .box{
+    min-height : 75px;
+    max-height : 75px;
+    min-width : 200px;
+    max-width : 200px;
+    //margin : 10px 10px;
+    //background-color: tomato;
+    //text-align : left;
+    flex-flow: column wrap;
+    //align-content: flex-start;
+    text-align: right;
+    border: 1px solid rgb(39, 37, 37);
+    
+  }
+  .imgbox{
+    margin-top: 10px ;
+    width: 40px;
+    margin-left: 5px;
+  }
+  .servicename{
+
+  }
+  .contactus-inner{
+    padding: 10px;
+  }
+  .footer{
+    width: 100%;
+    background-color : Black;
+    height: 100px;
+  }
+  .footer-inner{
+    width: 80%;
+    color: white;
+    font-size: 13px;
+    margin: auto;
+    justify-content: space-between;
+    text-align: center;  
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .footer-left{
+    width: 100%;
+  }
+  .footer-right{
+    width: 100%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .rightmenus{
+    display: none;
+  }
+  .menubtn{
+    display: block;
+    width: 15%;
+  }
+  .companylogo{
+
+    width : 70%
+  }
+}
