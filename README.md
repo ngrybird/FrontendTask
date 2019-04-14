@@ -2,7 +2,7 @@
 
 ## Answer  
 Please review the code from src/templates and src/sass folders.  
-Extensive used of flex box.  
+Extensively used of flex box.  
 Used some of the images from actual axelerent website.
 
 
